@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Build a Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <h1 id="title"> Best Ethereum Wallet Survey Form</h1>
+  <p ="description"><i>Let us know which wallet you think is the best for navigating Ethereum</i></p> 
+</header>  
+<main>
+  <form id="survey-form"> 
+   <div class="form-group"> 
+    <label id="name-label">Name</label><br>
+    <input id="name" placeholder="Enter your name" required><br>
+   </div>
+   <div class="form-group"> 
+    <label id="email-label">Email</label><br>
+    <input id="email" input type="email" placeholder="Enter your email" required>
+    </div>
+    <div>
+      <label id="number-label">How many years have you been in crypto?             </label><br>
+      <input id="number" input type="number" min="0" max="9" style="width: 200px" placeholder="Enter number of years" >   </div>
+    <div>
+      <label id="dropdown">How would you describe your role in Ethereum?</label><br>
+      <select placehoder="Choose your role">
+        <option value="" disabled selected>Select your role</option>
+        <option value="trader">Trader</option>
+        <option value="NFT collector">NFT Collector</option>
+        <option value="developer">Developer</option>
+        <option value="miner">Miner</option>
+        <option vlaue="validator">Validator</option>
+      </select>  
+    </div> 
+    <div>
+      <label id="wallet-type">Which wallet type do you prefer?</label><br>
+      <input type="radio" name="wallet-type">Hot Wallet<br>
+      <input type="radio" name="wallet-type">Cold Wallet<br>
+      <input type="radio" name="wallet-type">Smart Contract<br>
+      <input type="radio" name="wallet-type">Paper
+    </div>
+    <div>
+      <label id="wallet-options">Which wallets do you use the most?</label><br>
+      <input id="Metamask" type="checkbox" name="wallet">Metamask<br>
+      <input id="coinbase-wallet" type="checkbox" name="wallet">Coinbase Wallet<br>
+      <input id="portis" type="checkbox" name="wallet">Portis<br>
+      <input id="imtoken" type="checkbox" name="wallet">imToken<br>
+      <input id="fortmatic" type="checkbox" name="wallet">Fortmatic<br>
+      <input id="mew" type="checkbox" name="wallet">MyEtherWallet<br>
+      <input id="mycrypto" type="checkbox" name="wallet">MyCrypto<br>
+      <input id="argent" type="checkbox" name="wallet">Argent<br>
+      <input id="gnosis-safe" type="checkbox" name="wallet">Gnosis Safe<br>
+      <input id="ledger" type="checkbox" name="wallet">Ledger<br>
+      <input id="trezor" type="checkbox" name="wallet">Trezor<br>
+      <input id="trust" type="checkbox" name="wallet">Trust<br>
+      <input id="torus" type="checkbox" name="wallet">Torus<br>
+      <input id="rainbow" type="checkbox" name="wallet">Rainbow<br>
+      <input id="status" type="checkbox" name="wallet">Status<br>
+      <input id="dharma" type="checkbox" name="wallet">Dharma<br>
+    </div>
+    <div>
+      <label id="comments">Additional Comments?</label><br>
+      <textarea id=add-comments placeholder="Enter your comments here..."></textarea>
+    </div>
+    <div>
+      <button type="submit" id="submit">Submit</button>
+    </div>
+  </form>  
+  <footer>
+    <p>
+      Thanks to Freecodecamp and <a href="https://codepen.io/freeCodeCamp/full/VPaoNP">https://codepen.io/freeCodeCamp/full/VPaoNP</a> for the coding help.
+    </p>
+  </footer>
+</main>
+<!-- partial -->
+  
+</body>
+</html>

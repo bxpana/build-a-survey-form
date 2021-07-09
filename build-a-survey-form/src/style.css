@@ -1,0 +1,43 @@
+html{
+  background-color: #e0e8ff;
+  background-image: linear-gradient( 
+112deg
+, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://www.nasdaq.com/sites/acquia.prod/files/styles/720x400/public/image/5ebfeebbf2fbf5d9973e203b244f8dc88ca825f2_Nodes_1TGgsOv.jpg?itok=wPeObvRr);
+}
+header{
+  font-family: helvetica;
+  text-align:center;
+  color: white;
+}
+#survey-form{
+  padding: 10px;
+}  
+
+div{
+  margin: 20px 0px 20px 50px;
+}
+
+main{
+  font-family: helvetica;
+  background-color: #acbae3;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 25px;
+}
+
+textarea{
+  min-height: 120px;
+    width: 60%;
+    padding: 0.625rem;
+    padding-top: 0.625rem;
+    padding-right: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 0.625rem;
+}
+footer{
+  font-weight: 300;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+  border-top: 4px solid #6967e0;
+}
